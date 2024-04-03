@@ -17,13 +17,13 @@ export default {
 <style scoped>
 .title h1 {
   font-size: 2rem;
-  color: red;
+  color: var(--primary);
   margin-bottom: 0.5rem;
   text-align: center;
 }
 .title p {
   font-size: 1rem;
-  color: blue;
+  color: var(--success);
   margin-bottom: 0.5rem;
   text-align: center;
 }

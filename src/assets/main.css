@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  --primary: #5d8b43;
+  --secondary-color: #505480;
+  --error: #ff0000;
+  --success: #00ff00;
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Itim", cursive;
+}
+
+body {
+  font-family: var(--primary-font);
+  background-color: var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1080px;
+}
+
+.title {
+  font-family: var(--secondary-font);
+  font-size: 2rem;
+  color: var(--primary);
+  margin: 1rem;
+  width: 1080px;
+  text-align: center;
+  background: #fff;
+  border-radius: 10%;
+  height: 200px;
+}
